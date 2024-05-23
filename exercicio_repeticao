@@ -1,0 +1,32 @@
+#laço FOR
+
+print("Laço while")
+andarHotel = 0
+
+for i in range(20):
+    andarHotel = andarHotel + 1
+    if (andarHotel == 13):
+        continue
+    print(andarHotel, "º andar")
+
+
+#laço WHILE
+print("Laço while")
+i = 1
+while (i <= 20):
+    if i == 13:
+        i = i + 1
+        continue
+    print(i, "º andar")
+    i = i + 1
+
+
+#ordem DECRESCENTE
+print("Ordem decrescente")
+andarHotel = 21
+
+for i in range (21, 1, -1):
+    andarHotel = andarHotel - 1
+    if (andarHotel == 13):
+        continue
+    print(andarHotel, "º andar")
